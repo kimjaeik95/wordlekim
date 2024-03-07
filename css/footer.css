@@ -3,31 +3,39 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
+  margin-top: 20px;
 }
 
-.qwer {
+.keyboard-row {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
 
-.keyboard {
+.keyboard-column {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(211, 214, 218);
-  width: 40px;
-  height: 50px;
-  margin-top: 8px;
+  width: 45px;
+  height: 60px;
+  background-color: #d3d6da;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.keyboard-x {
+.keyboard-wide {
+  font-size: small;
+  width: 70px;
+  border: 15px solid #d3d6da;
+}
+.back-space-icon {
+  width: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(211, 214, 218);
-  width: 60px;
-  height: 50px;
 }

@@ -1,9 +1,30 @@
 header {
-  margin-top: 10px;
-  border-bottom: 1px solid #ededef;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+  padding: 10px;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .info-bar-icon {
-  width: 15px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.name {
+  padding-left: 2%;
+  font-size: 30px;
+  font-weight: 1000;
+  font-family: "Playfair Display", serif;
 }
