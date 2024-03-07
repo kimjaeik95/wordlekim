@@ -1,0 +1,9 @@
+header {
+  margin-top: 10px;
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 10px;
+}
+
+.info-bar-icon {
+  width: 15px;
+}
